@@ -1,19 +1,44 @@
 # Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+# Desktop Engineer
+- company: Napster
+  position: Desktop Engineer
+  duration: November 2016 &mdash; August 2019 | Seattle, WA
+  summary:
+    <ul class="resume-item-list">
+    <li>Worked with infrastructure team and finance vendor to create an analytics server (Jet) and DB.</li>
+    <li>Aggregated sensitive legal data programmatically via G Suite’s API for the SVP of legal.</li>
+    <li>Upgraded the on-premise multifunction printer and its network printer counterpart.</li>
+    <li>McAfee ePO server and deployment with protection against ransomware (Petya, WannaCry, etc.)</li>
+    <li>Wrote a PowerShell script and GPO to install the Chef agent on Windows servers.</li>
+    <li>Implemented WSUS server via vSphere and pushed hotfixes for said ransomware.</li>
+    <li>Completed audio-visual work with vendor on main stage used for company-wide meetings.</li>
+    <li>Resolved interference from a local radio station interrupting the executive conference room.</li>
+    <li>Repaired data analytics server (MicroStrategy) bypassing vendor to meet SLAs.</li>
+    </ul>
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+# IT Services Tech
+- company: Volt
+  position: IT Services Technician
+  duration: August 2016 &mdash; November 2016 | Seattle, WA
+  summary:
+    <ul class="resume-item-list">
+    <li>After the three-month contract ended, was converted to a full-time employee at Napster.</li>
+    <li>Revived ePO database restoring antivirus, firewall, and antimalware protection to workstations.</li>
+    <li>Managed AD and G Suite functionality (password, two-step authentication, email, network shares.)</li>
+    <li>Successfully took the CTO's laptop from no-POST to login without data loss and minimal downtime.</li>
+    <li>Trained UI/UX team how to optimize disk space locally and online to save dozens of gigabytes.</li>
+    <li>Worked with multiple vendors to resolve AV interference, VOIP, laptop hardware, and other issues.</li>
+    </ul>
 
-
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+# Desktop Engineer
+- company: Heartland Payment Systems
+  position: Desktop Engineer
+  duration: December 2015 &mdash; July 2016 | Edmond, OK
+  summary:
+    <ul class="resume-item-list">
+    <li>JAMF Casper Mac management - QA, internal escalations, created scripts and policy to gather logs.</li>
+    <li>Developed ePO policies to reduce CPU usage and implement hotfixes for workstations and tablets.</li>
+    <li>Helpdesk escalations (e.g., keychain/password resets, imaging networking, video display.)</li>
+    <li>Technical articles with in-depth solutions (e.g., FileVault 2 not syncing with AD credentials.)</li>
+    <li>Collaborated with vendors to install network drops; AV systems, VPN, and encryption issues.</li>
+    </ul>

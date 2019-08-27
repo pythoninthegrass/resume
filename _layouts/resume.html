@@ -11,6 +11,7 @@
 
       <header class="page-header">
 
+        <!-- TODO: Add certs section + _/data/certs.yml -->
         <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar == 'true' %}
         <img src="images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image">
@@ -47,6 +48,27 @@
         {% endif %}
 
       </header>
+
+      {% if site.resume_section_interests %}
+      <!-- begin Interests -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Outside Interests</h2>
+        </header>
+
+        <div class="resume-item">
+          <ul class="resume-item-list">
+            {% for interest in site.data.interests %}
+            <li>{{ interest.description }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+
+      </section>
+      <!-- end Interests -->
+      {% endif %}
+
 
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
@@ -175,26 +197,6 @@
       <!-- end Associations -->
       {% endif %}
 
-      {% if site.resume_section_interests %}
-      <!-- begin Interests -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Outside Interests</h2>
-        </header>
-
-        <div class="resume-item">
-          <ul class="resume-item-list">
-            {% for interest in site.data.interests %}
-            <li>{{ interest.description }}</li>
-            {% endfor %}
-          </ul>
-        </div>
-
-      </section>
-      <!-- end Interests -->
-      {% endif %}
-
       {% if site.resume_section_links %}
       <!-- begin Links -->
       <section class="content-section">
@@ -231,10 +233,10 @@
       <!-- end Print Social Links -->
       {% endif %}
 
-      <footer class="page-footer">
+      <!-- <footer class="page-footer">
         <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
         <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
-      </footer>
+      </footer> -->
 
     </div>
 

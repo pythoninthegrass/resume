@@ -1,4 +1,7 @@
 # Interests
-- description: Human rights and world affairs
-- description: Music (baritone saxiphonist)
-- description: Linguistics
+- description: <b>Ansible:</b> automating Linux and Mac tasks, initial deployment of Kubernetes.
+- description: <b>Docker:</b> DNS server with ad blocking, music server, and web development (Jekyll, Django.)
+- description: <b>Kali Linux:</b> vulnerability testing on local network and password protection.
+- description: <b>Kubernetes (k8s):</b> studying for the CKA exam with VMs and online labs.
+- description: <b>Python:</b> web development, scripting, and configuration management with Ansible.
+- description: <b>Raspberry Pi:</b> hardware cluster and dedicated VPN server via OpenVPN.
